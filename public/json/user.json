@@ -1,0 +1,206 @@
+{
+    "code": 200,
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "size": 10,
+        "startRow": 1,
+        "endRow": 10,
+        "total": 8,
+        "pages": 1,
+        "list": [
+            {
+                "orgName": "总部财务",
+                "sex": "2",
+                "isAdmin": "1",
+                "userCode": "admin",
+                "phoneNo": "15117948009",
+                "bankid": 1,
+                "realName": "管理员",
+                "modifyUser": "admin",
+                "password": "224cf2b695a5e8ecaecfb9015161fa4b",
+                "logindate": 1546849559000,
+                "modifyTime": 1537931624000,
+                "createTime": null,
+                "orgCode": "d0b89ac30ad642b18c0c9fbfb8891b18",
+                "roleCode": [
+                    1
+                ],
+                "roleName": "超级管理员",
+                "createUser": null,
+                "status": "1",
+                "email": "15117948009@126.com"
+            },
+            {
+                "orgName": "个人事业部",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "qwe",
+                "phoneNo": "13438734629",
+                "bankid": 2,
+                "realName": "qwe",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1543480746000,
+                "modifyTime": 1543480031000,
+                "createTime": 1543480008000,
+                "orgCode": "08a856fabc484866869af307d1a09bbd",
+                "roleCode": [
+                    2
+                ],
+                "roleName": "qwe",
+                "createUser": "admin",
+                "status": "0",
+                "email": "458990608@qq.com"
+            },
+            {
+                "orgName": "个人事业部",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "zhuguan_test",
+                "phoneNo": "13718119604",
+                "bankid": 3,
+                "realName": "信贷主管李四",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1546849550000,
+                "modifyTime": 1543474121000,
+                "createTime": 1539495010000,
+                "orgCode": "08a856fabc484866869af307d1a09bbd",
+                "roleCode": [
+                    3,
+                    4
+                ],
+                "roleName": "信贷主管,teteee",
+                "createUser": "admin",
+                "status": "1",
+                "email": null
+            },
+            {
+                "orgName": "个人事业部",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "dianhe_test",
+                "phoneNo": "13718119603",
+                "bankid": 4,
+                "realName": "电核员张三",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1546415205000,
+                "modifyTime": 1543474129000,
+                "createTime": 1539494934000,
+                "orgCode": "08a856fabc484866869af307d1a09bbd",
+                "roleCode": [
+                    1
+                ],
+                "roleName": "电核专员",
+                "createUser": "admin",
+                "status": "1",
+                "email": null
+            },
+            {
+                "orgName": "有米借款产品组",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "gedai001",
+                "phoneNo": "13821687664",
+                "bankid": 5,
+                "realName": "个贷经理001",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1545019873000,
+                "modifyTime": 1539314098000,
+                "createTime": 1539314098000,
+                "orgCode": "cb1f545a19624b7fa122b082e3f49bab",
+                "roleCode": [
+                    2
+                ],
+                "roleName": "个贷客户经理",
+                "createUser": "admin",
+                "status": "0",
+                "email": null
+            },
+            {
+                "orgName": "有米借款产品组",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "电核002",
+                "phoneNo": "13821687456",
+                "bankid": 6,
+                "realName": "电核002",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1542025913000,
+                "modifyTime": 1539313969000,
+                "createTime": 1539313969000,
+                "orgCode": "cb1f545a19624b7fa122b082e3f49bab",
+                "roleCode": [
+                    3
+                ],
+                "roleName": "电核专员",
+                "createUser": "admin",
+                "status": "1",
+                "email": null
+            },
+            {
+                "orgName": "有米借款产品组",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "chushen002",
+                "phoneNo": "13821687667",
+                "bankid": 7,
+                "realName": "初审002",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1545019749000,
+                "modifyTime": 1539313948000,
+                "createTime": 1539313948000,
+                "orgCode": "cb1f545a19624b7fa122b082e3f49bab",
+                "roleCode": [
+                    2
+                ],
+                "roleName": "初审小组",
+                "createUser": "admin",
+                "status": "1",
+                "email": null
+            },
+            {
+                "orgName": "有米借款产品组",
+                "sex": "1",
+                "isAdmin": "0",
+                "userCode": "approval",
+                "phoneNo": "13821687667",
+                "bankid": 8,
+                "realName": "李审批",
+                "modifyUser": "admin",
+                "password": "14e1b600b1fd579f47433b88e8d85291",
+                "logindate": 1542025874000,
+                "modifyTime": 1539164073000,
+                "createTime": 1539078014000,
+                "orgCode": "cb1f545a19624b7fa122b082e3f49bab",
+                "roleCode": [
+                    1
+                ],
+                "roleName": "超级管理员",
+                "createUser": "admin",
+                "status": "1",
+                "email": null
+            }
+        ],
+        "prePage": 0,
+        "nextPage": 0,
+        "isFirstPage": true,
+        "isLastPage": true,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "navigatePages": 8,
+        "navigatepageNums": [
+            1
+        ],
+        "navigateFirstPage": 1,
+        "navigateLastPage": 1,
+        "firstPage": 1,
+        "lastPage": 1
+    },
+    "msg": "success"
+}

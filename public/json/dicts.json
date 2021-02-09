@@ -1,0 +1,16 @@
+{
+    "code": 200,
+    "data": {
+        "cust_source": [
+            {
+                "id": "1",
+                "value": "H5注册"
+            },
+            {
+                "id": "2",
+                "value": "APP注册"
+            }
+        ]
+    },
+    "msg": "success"
+}

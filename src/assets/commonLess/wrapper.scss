@@ -1,0 +1,139 @@
+.template-container {
+  .template-title {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .template-section {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    .template-section-title {
+      padding: 13px 18px;
+      font-size: 16px;
+      line-height: 22px;
+      border-bottom: 1px solid #eef1f4;
+    }
+
+    .template-section-content {
+      padding: 18px;
+    }
+  }
+
+  .template-search {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    .template-search-title {
+      padding: 13px 18px;
+      font-size: 16px;
+      line-height: 22px;
+      border-bottom: 1px solid #eef1f4;
+    }
+
+    .template-search-content {
+      padding: 10px 14px 0px 14px;
+      position: relative;
+      height: auto;
+
+      .template-search-content-input-group {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        height: auto;
+        .template-search-sort-icons {
+          font-size: 12px;
+          text-align: right;
+          float: right;
+          cursor: pointer;
+          color: #515a6e;
+          padding: 10px;
+          span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: 4px;
+            margin-top: -1px;
+            vertical-align: middle;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+          }
+
+          i {
+            display: block;
+            height: 6px;
+            line-height: 6px;
+            overflow: hidden;
+            position: absolute;
+            color: #bbbec4;
+            transition: color 0.2s ease-in-out;
+            &:first-child {
+              top: 0;
+            }
+
+            &:last-child {
+              bottom: 0;
+            }
+          }
+
+          i.active {
+            color: #2d8cf0;
+          }
+        }
+        .el-form-item {
+          margin-bottom: 10px;
+        }
+      }
+
+      .template-search-content-button-group {
+        text-align: center;
+        width: 100px;
+        min-height: 120px;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+
+        .template-search-btn {
+          position: absolute;
+          top: 25%;
+          margin-top: -16px;
+          right: 10px;
+        }
+
+        .template-reset-btn {
+          position: absolute;
+          top: 60%;
+          margin-top: -16px;
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  .template-content {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px 18px;
+
+    .template-content-title {
+      line-height: 20px;
+      font-size: 14px;
+      margin-bottom: 15px;
+      position: relative;
+
+      .template-content-title-extra {
+        position: absolute;
+        right: 18px;
+        top: -5px;
+      }
+    }
+
+    .template-bottom-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "code": 200,
+    "data": [{
+        "modifyUser": null,
+        "orgName": "总机构",
+        "modifyTime": null,
+        "createTime": null,
+        "remark": null,
+        "createUser": null,
+        "orgFatherId": null,
+        "orgId": "1"
+    }, {
+        "modifyUser": "admin",
+        "orgName": "贷后管理部",
+        "modifyTime": 1545735094000,
+        "createTime": 1545393888000,
+        "remark": "1111",
+        "createUser": "lisi",
+        "orgFatherId": "1",
+        "orgId": "ec5fff1e9d424cc7820ad67dfd37bc38"
+    }, {
+        "modifyUser": "admin",
+        "orgName": "测试1",
+        "modifyTime": 1548312979000,
+        "createTime": 1548312887000,
+        "remark": "测试",
+        "createUser": "admin",
+        "orgFatherId": "1",
+        "orgId": "3162449bd46a4981b10eb728cd0c0909"
+    }, {
+        "modifyUser": null,
+        "orgName": "贷后三级",
+        "modifyTime": null,
+        "createTime": 1548312899000,
+        "remark": null,
+        "createUser": "admin",
+        "orgFatherId": "ec5fff1e9d424cc7820ad67dfd37bc38",
+        "orgId": "73dca48812b54503a5ef2c0f9cf27c41"
+    }],
+    "msg": "success"
+}

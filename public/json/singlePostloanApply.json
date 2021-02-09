@@ -1,0 +1,125 @@
+{
+    "code": 200,
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "size": 10,
+        "startRow": 1,
+        "endRow": 10,
+        "total": 11,
+        "pages": 1,
+        "cardAccountInfo": [
+            {
+                "customerName": "10010",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "7",
+                "fileProperty": "1",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "2",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "4",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "5",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "6",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "1",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "2",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "4",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "5",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "6",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            },
+            {
+                "customerName": "10011",
+                "IdentificationNum": "错误补录",
+                "loanGuaranteeType": "申请贷款",
+                "applyLoanAmount": "8",
+                "fileProperty": "1",
+                "dataFileType": "存量数据文件",
+                "dataCloseDate": "2019-02-08",
+                "dataUploadDate": "2019-02-06"
+            }
+        ]
+    },
+    "msg": "success"
+}

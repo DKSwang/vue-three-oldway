@@ -1,0 +1,60 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "resName": "工作台",
+            "resUrl": "/home",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": 1,
+            "resId": "870ea9873a3c4d77bc0b818b2ecad0fb",
+            "resFatherId": "fd89393d57e64b07b67138c4bf40d37f"
+        },
+        {
+            "resName": "权限管理",
+            "resUrl": "/system/authorityManage",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": null,
+            "resId": "24",
+            "resFatherId": "19"
+        },
+        {
+            "resName": "客户信息",
+            "resUrl": "/CustomerManage/CustomerInfo",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": 1,
+            "resId": "837d085b14674a4f9da1107a4f86794b",
+            "resFatherId": "a53d7bfa6fe84d6a9747146613207090"
+        },
+        {
+            "resName": "用户管理",
+            "resUrl": "/system/userManage",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": 1,
+            "resId": "20",
+            "resFatherId": "19"
+        },
+        {
+            "resName": "角色管理",
+            "resUrl": "/system/roleManage",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": 2,
+            "resId": "21",
+            "resFatherId": "19"
+        },
+        {
+            "resName": "机构管理",
+            "resUrl": "/system/organization",
+            "resOperType": "2",
+            "resType": "1",
+            "orders": 4,
+            "resId": "23",
+            "resFatherId": "19"
+        }
+    ],
+    "msg": "success"
+}

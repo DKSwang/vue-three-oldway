@@ -1,0 +1,33 @@
+{
+    "code": 200,
+    "data": [{
+        "roleCode": 1,
+        "roleName": "业务人员",
+        "roleType": "1",
+        "remark": "负责具体的业务",
+        "address": "",
+        "visible": false
+    }, {
+        "roleCode": 2,
+        "roleName": "上级领导",
+        "roleType": "2",
+        "remark": "负责管理类工作",
+        "address": "",
+        "visible": false
+    }, {
+        "roleCode": 3,
+        "roleName": "运营中心管理员",
+        "roleType": "2",
+        "remark": "主要负责本运营中心的任务重新分配",
+        "address": "",
+        "visible": false
+    }, {
+        "roleCode": 4,
+        "roleName": "超级管理员",
+        "roleType": "2",
+        "remark": "超级管理员",
+        "address": "",
+        "visible": false
+    }],
+    "msg": "成功"
+}
