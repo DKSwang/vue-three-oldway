@@ -2,7 +2,7 @@
  * @Author: xxuzhong.wang
  * @Date: 2021-02-07 15:41:03
  * @LastEditors: xuzhong.wang
- * @LastEditTime: 2021-02-08 14:51:45
+ * @LastEditTime: 2021-02-18 09:46:51
  * @Description: 
  */
 import {
@@ -41,6 +41,15 @@ const routes = [{
                     name: "修改密码"
                 }
             },
+            {
+                path: "/test",
+                name: "test",
+                component: () => import("@/views/Test/test.vue"),
+                meta: {
+                    name: "测试页面"
+                }
+            },
+
         ]
 
     },

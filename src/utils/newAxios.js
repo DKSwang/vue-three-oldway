@@ -1,8 +1,8 @@
 /*
  * @Author: xxuzhong.wang
- * @Date: 2021-01-28 17:29:11
+ * @Date: 2021-02-09 16:58:28
  * @LastEditors: xuzhong.wang
- * @LastEditTime: 2021-02-18 09:24:12
+ * @LastEditTime: 2021-02-18 14:20:53
  * @Description: 
  */
 import axios from "axios";
@@ -14,11 +14,37 @@ import {
     getStore
 } from "./utils";
 const baseURL = "";
+const http = axios.create({
+    baseURL: baseURL,
+    timeout: 30000
+})
+http.interceptors.request.use(
+    config => {
+        //请求发送之前的配置,让每个请求都携带tokenId
+        let tokenId = getStore("token") ? getStore("token") : "";
+        config.headers['Content-Type'] = "application/json;charset=UTF-8;";
+        config.headers['tokenId'] = tokenId;
+        config.headers['timestamp'] = Date.parse(new Date())
+        //公共参数-项目不同公共参数不同
+        config.params['timestamp'] = config.headers['timestamp'];
+        config.params['userId'] = tokenId.userId;
+        config.params['tokenId'] = tokenId.tokenId;
+        config.params['branchId'] = tokenId.branchId;
+        return config
 
-axios.interceptors.response.use(
-    function (response) {
+    },
+    error => {
+        Promise.reject(error)
+    }
+)
+//加载的loading
+//store.dispatch('common/saveLoading', true);
+//拦截器
+http.interceptors.response.use(
+    response => {
         if (response.status == 200) {
             let responseData = response.data;
+            // store.dispatch('common/saveLoading', false);
             if (responseData.code == 1001) {
                 //1001登录失效
                 router.replace({
@@ -35,8 +61,10 @@ axios.interceptors.response.use(
             ElMessage.error("系统错误");
             return {};
         }
+
     },
     err => {
+        // store.dispatch('common/saveLoading', false);
         ElMessage.closeAll();
         if (err.response && err.response.status) {
             if (err.response.status == 404) {
@@ -55,38 +83,6 @@ axios.interceptors.response.use(
         }
         return Promise.resolve(err);
     }
-);
+)
 
-class Axios {
-    get(url, params, headers) {
-
-        return axios({
-            url,
-            method: "get",
-            params,
-            baseURL,
-            headers: {
-                Accept: "application/json; charset=utf-8",
-                "Content-Type": "application/json;charset=UTF-8;",
-                token: getStore("token") ? getStore("token") : ""
-            }
-        });
-    }
-    post(url, params, headers) {
-        return axios({
-            url,
-            method: "post",
-            data: {
-                params: params
-            },
-            baseURL,
-            headers: {
-                Accept: "application/json; charset=utf-8",
-                "Content-Type": "application/json;charset=UTF-8;",
-                token: getStore("token") ? getStore("token") : ""
-            }
-        });
-    }
-}
-
-export default new Axios();
+export default http
